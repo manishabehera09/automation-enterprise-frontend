@@ -1,0 +1,19 @@
+{
+  "name": "securegate-ai-root",
+  "version": "1.0.0",
+  "description": "SecureGate AI - Enterprise AI-Powered Visitor Management Platform",
+  "scripts": {
+    "bootstrap": "npm install && npm run install:backend && npm run install:frontend && npm run install:tests",
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install:tests": "cd tests && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev": "npx concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "test:unit": "cd tests && npm run test",
+    "test:e2e": "cd tests && npx playwright test"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

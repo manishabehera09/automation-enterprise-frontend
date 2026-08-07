@@ -1,0 +1,1853 @@
+{
+  "users": [
+    {
+      "uid": "admin-uid",
+      "name": "Enterprise Admin",
+      "email": "admin@securegate.ai",
+      "mobile": "+15550100",
+      "role": "admin",
+      "passwordHash": "$2a$10$zQ.yeEzZ2.BempMmatCcv.hejTzzkhD4GHoxCt1Cpjj.FR3wGDqjC",
+      "status": "active",
+      "failedAttempts": 0,
+      "details": {
+        "employeeId": "ADM-909",
+        "department": "IT Security",
+        "designation": "Chief Security Officer"
+      },
+      "createdAt": "2026-08-07T03:18:43.769Z"
+    },
+    {
+      "uid": "exec-uid",
+      "name": "Senior Executive Director",
+      "email": "exec@securegate.ai",
+      "mobile": "+15550200",
+      "role": "executive",
+      "passwordHash": "$2a$10$zQ.yeEzZ2.BempMmatCcv.lYBEi8D2A7y1GEcmNmjjRas2HJO.1v6",
+      "status": "active",
+      "failedAttempts": 0,
+      "details": {
+        "employeeId": "EXE-101",
+        "department": "Executive Board",
+        "designation": "Managing Director"
+      },
+      "createdAt": "2026-08-07T03:18:43.881Z"
+    },
+    {
+      "uid": "employee-uid",
+      "name": "Jane Host Employee",
+      "email": "employee@securegate.ai",
+      "mobile": "+15550300",
+      "role": "employee",
+      "passwordHash": "$2a$10$zQ.yeEzZ2.BempMmatCcv.XOFig43PNShsabo9DrRscp6oqQW7m1q",
+      "status": "active",
+      "failedAttempts": 0,
+      "details": {
+        "employeeId": "EMP-404",
+        "department": "Research & Development",
+        "designation": "Lead Project Engineer"
+      },
+      "createdAt": "2026-08-07T03:18:44.000Z"
+    },
+    {
+      "uid": "visitor-uid",
+      "name": "John Visitor",
+      "email": "visitor@securegate.ai",
+      "mobile": "+15550400",
+      "role": "visitor",
+      "passwordHash": "$2a$10$zQ.yeEzZ2.BempMmatCcv.F9DnHNP1vvRO6MspnWn1A7FmBcF8TO6",
+      "status": "active",
+      "failedAttempts": 0,
+      "details": {
+        "company": "Partner Corp",
+        "govIdType": "aadhaar",
+        "govIdNumber": "1111-2222-3333"
+      },
+      "createdAt": "2026-08-07T03:18:44.116Z"
+    },
+    {
+      "uid": "user-1786072854904-siltr",
+      "name": "Manisha Behera",
+      "email": "manishaexec@securegate.ai",
+      "mobile": "9937051055",
+      "role": "executive",
+      "passwordHash": "$2a$10$tNbkJKkrOZKK33I2g5VL4.C2cGg.e/VmJ4idXG9QjeWw0m/s5T/aG",
+      "status": "active",
+      "failedAttempts": 0,
+      "details": {
+        "company": "HCL ",
+        "govIdType": "aadhaar",
+        "govIdNumber": "",
+        "vehicleNumber": "",
+        "laptopDetails": "",
+        "employeeId": "EMP001",
+        "department": "IT",
+        "designation": ""
+      },
+      "createdAt": "2026-08-07T03:20:54.904Z"
+    },
+    {
+      "uid": "user-1786121454273-fo5fd",
+      "name": "Manisha",
+      "email": "manisha@hcl.in",
+      "mobile": "9937051055",
+      "role": "employee",
+      "passwordHash": "$2a$10$FR8W0OtDv7rHhVNNmQVgWuojCNfB092BaA4Rn0X/P5lDuzmV0DcyC",
+      "status": "active",
+      "failedAttempts": 0,
+      "details": {
+        "company": "",
+        "govIdType": "aadhaar",
+        "govIdNumber": "",
+        "vehicleNumber": "",
+        "laptopDetails": "",
+        "employeeId": "EMP-09",
+        "department": "IT",
+        "designation": "HR"
+      },
+      "createdAt": "2026-08-07T16:50:54.273Z"
+    },
+    {
+      "uid": "user-1786126994573-0xhxl",
+      "name": "Manisha Behera",
+      "email": "manisha@gmail.com",
+      "mobile": "9930751055",
+      "role": "visitor",
+      "passwordHash": "$2a$10$Wk8ofnxgvtyZEyZRb2lY2eTWEigq5rxWwjqa3vQrmM8oZqB21CYgO",
+      "status": "active",
+      "failedAttempts": 0,
+      "details": {
+        "company": "KIIT",
+        "govIdType": "aadhaar",
+        "govIdNumber": "123456789012",
+        "vehicleNumber": "",
+        "laptopDetails": "",
+        "employeeId": "",
+        "department": "",
+        "designation": ""
+      },
+      "createdAt": "2026-08-07T18:23:14.573Z"
+    },
+    {
+      "uid": "user-1786127248792-gqjk8",
+      "name": "ADMIN",
+      "email": "admin@hcl.in",
+      "mobile": "9876543210",
+      "role": "admin",
+      "passwordHash": "$2a$10$/H7wtFt123oIIW5wX7Jeke4TagQMAZipDHy5OCN7X57cihENBihuG",
+      "status": "active",
+      "failedAttempts": 0,
+      "details": {
+        "company": "",
+        "govIdType": "aadhaar",
+        "govIdNumber": "",
+        "vehicleNumber": "",
+        "laptopDetails": "",
+        "employeeId": "EMP-9798",
+        "department": "HOD",
+        "designation": ""
+      },
+      "createdAt": "2026-08-07T18:27:28.792Z"
+    }
+  ],
+  "requests": [
+    {
+      "id": "req-sample-1",
+      "visitorId": "visitor-uid",
+      "visitorName": "John Visitor",
+      "visitorEmail": "visitor@securegate.ai",
+      "visitorMobile": "+15550400",
+      "company": "Partner Corp",
+      "photoUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200",
+      "govIdUrl": "https://images.unsplash.com/photo-1554774853-aae0a22c8aa4?auto=format&fit=crop&q=80&w=400",
+      "status": "approved",
+      "meetingDetails": {
+        "employeeId": "employee-uid",
+        "employeeName": "Jane Host Employee",
+        "department": "Research & Development",
+        "purpose": "Project Collaboration Sprint Planning",
+        "scheduledTime": "2026-08-07T05:18:44.116Z",
+        "durationMinutes": 60,
+        "roomAllocation": "Innovation Lab A"
+      },
+      "ocrData": {
+        "extractedName": "JOHN VISITOR",
+        "extractedId": "1111-2222-3333",
+        "confidence": 0.97,
+        "documentVerified": true
+      },
+      "aiAnalysis": {
+        "riskScore": "low",
+        "riskReasoning": "OCR details verified perfectly. Visitor has a clean historical log with the company.",
+        "recommendation": "approve",
+        "confidenceScore": 0.94,
+        "timestamp": "2026-08-07T03:18:44.116Z"
+      },
+      "approvals": {
+        "employeeApproved": true,
+        "employeeNotes": "Pre-approved for design alignment.",
+        "executiveApproved": null,
+        "adminApproved": null
+      },
+      "qrToken": "MOCK_QR_JWT_TOKEN_ABC123",
+      "createdAt": "2026-08-06T03:18:44.116Z"
+    },
+    {
+      "id": "req-1786127088734-4zb2z",
+      "visitorId": "user-1786126994573-0xhxl",
+      "visitorName": "Manisha Behera",
+      "visitorEmail": "manisha@gmail.com",
+      "visitorMobile": "9930751055",
+      "company": "KIIT",
+      "photoUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&q=80&w=200",
+      "govIdUrl": "blob:http://localhost:5174/52efb355-4b28-4333-b08f-f637dd522149",
+      "status": "approved",
+      "meetingDetails": {
+        "employeeId": "employee-uid",
+        "employeeName": "Jane Host Employee",
+        "department": "Research & Development",
+        "purpose": "collaboration",
+        "scheduledTime": "2026-08-15T10:00",
+        "durationMinutes": 120,
+        "roomAllocation": "Meeting Pod 2"
+      },
+      "ocrData": {
+        "extractedName": "MANISHA BEHERA",
+        "extractedId": "1111-2222-3333",
+        "confidence": 0.98,
+        "documentVerified": true
+      },
+      "aiAnalysis": {
+        "riskScore": "low",
+        "riskReasoning": "No matches in security blacklist. Destination is standard office space. Normal business collaboration purpose.",
+        "recommendation": "approve",
+        "confidenceScore": 0.96,
+        "timestamp": "2026-08-07T18:24:52.782Z"
+      },
+      "approvals": {
+        "employeeApproved": null,
+        "employeeNotes": "",
+        "executiveApproved": null,
+        "adminApproved": true
+      },
+      "createdAt": "2026-08-07T18:24:52.782Z",
+      "qrToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXF1ZXN0SWQiOiJyZXEtMTc4NjEyNzA4ODczNC00emIyeiIsInZpc2l0b3JJZCI6InVzZXItMTc4NjEyNjk5NDU3My0weGh4bCIsInZpc2l0b3JOYW1lIjoiTWFuaXNoYSBCZWhlcmEiLCJwaG90b1VybCI6Imh0dHBzOi8vaW1hZ2VzLnVuc3BsYXNoLmNvbS9waG90by0xNTM1NzEzODc1MDAyLWQxZDBjZjM3N2ZkZT9hdXRvPWZvcm1hdCZmaXQ9Y3JvcCZxPTgwJnc9MjAwIiwiZXhwIjoxNzg2ODU0NjAwLCJpYXQiOjE3ODYxMjczMTF9.JjYhWRP2AFFJioh0sj2xmoHO-s4cJmvk1ykcKaMfEDo"
+    }
+  ],
+  "auditLogs": [
+    {
+      "userId": "user-1786126994573-0xhxl",
+      "userEmail": "manisha@gmail.com",
+      "role": "visitor",
+      "action": "USER_LOGIN_SUCCESS",
+      "previousState": null,
+      "newState": {
+        "email": "manisha@gmail.com",
+        "sessionToken": "ISSUED"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786128875006-anhbn",
+      "timestamp": "2026-08-07T18:54:35.006Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@gmail.com",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manisha@gmail.com"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786128867777-mng1d",
+      "timestamp": "2026-08-07T18:54:27.777Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@gmail.com",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manisha@gmail.com"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786128867775-t9tu3",
+      "timestamp": "2026-08-07T18:54:27.775Z"
+    },
+    {
+      "userId": "user-1786126994573-0xhxl",
+      "userEmail": "manisha@gmail.com",
+      "role": "visitor",
+      "action": "MFA_OTP_CHALLENGE",
+      "previousState": null,
+      "newState": {
+        "email": "manisha@gmail.com"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786128867259-5cc6h",
+      "timestamp": "2026-08-07T18:54:27.259Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@gmail.com",
+      "role": "guest",
+      "action": "LOGIN_ATTEMPT_FAILED_CAPTCHA",
+      "previousState": null,
+      "newState": null,
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "failure",
+      "id": "log-1786128859758-tc0ex",
+      "timestamp": "2026-08-07T18:54:19.758Z"
+    },
+    {
+      "userId": "user-1786126994573-0xhxl",
+      "userEmail": "manisha@gmail.com",
+      "role": "visitor",
+      "action": "LOGIN_FAILED_PASSWORD",
+      "previousState": null,
+      "newState": null,
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "failure",
+      "id": "log-1786128839542-80i8g",
+      "timestamp": "2026-08-07T18:53:59.542Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@gmail.com",
+      "role": "guest",
+      "action": "LOGIN_ATTEMPT_FAILED_CAPTCHA",
+      "previousState": null,
+      "newState": null,
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "failure",
+      "id": "log-1786128824355-f6p3y",
+      "timestamp": "2026-08-07T18:53:44.355Z"
+    },
+    {
+      "userId": "user-1786126994573-0xhxl",
+      "userEmail": "manisha@gmail.com",
+      "role": "visitor",
+      "action": "LOGIN_FAILED_PASSWORD",
+      "previousState": null,
+      "newState": null,
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "failure",
+      "id": "log-1786128816171-bpn1g",
+      "timestamp": "2026-08-07T18:53:36.171Z"
+    },
+    {
+      "userId": "user-1786126994573-0xhxl",
+      "userEmail": "manisha@gmail.com",
+      "role": "visitor",
+      "action": "LOGIN_FAILED_PASSWORD",
+      "previousState": null,
+      "newState": null,
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "failure",
+      "id": "log-1786128808029-3vitw",
+      "timestamp": "2026-08-07T18:53:28.029Z"
+    },
+    {
+      "userId": "user-1786121454273-fo5fd",
+      "userEmail": "manisha@hcl.in",
+      "role": "employee",
+      "action": "USER_LOGIN_SUCCESS",
+      "previousState": null,
+      "newState": {
+        "email": "manisha@hcl.in",
+        "sessionToken": "ISSUED"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786127793088-gnfra",
+      "timestamp": "2026-08-07T18:36:33.088Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@hcl.in",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manisha@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786127785927-z9top",
+      "timestamp": "2026-08-07T18:36:25.927Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@hcl.in",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manisha@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786127785925-xscqv",
+      "timestamp": "2026-08-07T18:36:25.925Z"
+    },
+    {
+      "userId": "user-1786121454273-fo5fd",
+      "userEmail": "manisha@hcl.in",
+      "role": "employee",
+      "action": "MFA_OTP_CHALLENGE",
+      "previousState": null,
+      "newState": {
+        "email": "manisha@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786127785409-va5wb",
+      "timestamp": "2026-08-07T18:36:25.409Z"
+    },
+    {
+      "userId": "user-1786127248792-gqjk8",
+      "userEmail": "admin@hcl.in",
+      "role": "admin",
+      "action": "VISIT_REQUEST_APPROVED",
+      "previousState": {
+        "status": "pending_approval"
+      },
+      "newState": {
+        "status": "approved"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": {
+        "riskScore": "low",
+        "riskReasoning": "No matches in security blacklist. Destination is standard office space. Normal business collaboration purpose.",
+        "recommendation": "approve",
+        "confidenceScore": 0.96,
+        "timestamp": "2026-08-07T18:24:52.782Z"
+      },
+      "humanApproval": true,
+      "status": "success",
+      "id": "log-1786127312482-6rmjh",
+      "timestamp": "2026-08-07T18:28:32.482Z"
+    },
+    {
+      "userId": "user-1786127248792-gqjk8",
+      "userEmail": "admin@hcl.in",
+      "role": "admin",
+      "action": "USER_LOGIN_SUCCESS",
+      "previousState": null,
+      "newState": {
+        "email": "admin@hcl.in",
+        "sessionToken": "ISSUED"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786127277221-sq98s",
+      "timestamp": "2026-08-07T18:27:57.221Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "admin@hcl.in",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "admin@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786127270527-9t14b",
+      "timestamp": "2026-08-07T18:27:50.527Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "admin@hcl.in",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "admin@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786127270525-swcim",
+      "timestamp": "2026-08-07T18:27:50.525Z"
+    },
+    {
+      "userId": "user-1786127248792-gqjk8",
+      "userEmail": "admin@hcl.in",
+      "role": "admin",
+      "action": "MFA_OTP_CHALLENGE",
+      "previousState": null,
+      "newState": {
+        "email": "admin@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786127270007-0feu0",
+      "timestamp": "2026-08-07T18:27:50.007Z"
+    },
+    {
+      "userId": "user-1786127248792-gqjk8",
+      "userEmail": "admin@hcl.in",
+      "role": "admin",
+      "action": "USER_SIGNUP",
+      "previousState": null,
+      "newState": {
+        "uid": "user-1786127248792-gqjk8",
+        "role": "admin",
+        "name": "ADMIN"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786127248797-7o6dv",
+      "timestamp": "2026-08-07T18:27:28.797Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "admin@hcl.in",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "mobile",
+        "email": "admin@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786127229815-lvnon",
+      "timestamp": "2026-08-07T18:27:09.815Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "admin@hcl.in",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "email",
+        "email": "admin@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786127223214-75wet",
+      "timestamp": "2026-08-07T18:27:03.214Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "admin@hcl.in",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "email",
+        "email": "admin@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786127223212-g3lf8",
+      "timestamp": "2026-08-07T18:27:03.212Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "admin@securegate.ai",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "mobile",
+        "email": "admin@securegate.ai"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786127193155-qkj5e",
+      "timestamp": "2026-08-07T18:26:33.155Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "admin@securegate.ai",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "email",
+        "email": "admin@securegate.ai"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786127187467-2xczu",
+      "timestamp": "2026-08-07T18:26:27.467Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "admin@securegate.ai",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "email",
+        "email": "admin@securegate.ai"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786127187465-rqcgb",
+      "timestamp": "2026-08-07T18:26:27.465Z"
+    },
+    {
+      "userId": "user-1786126994573-0xhxl",
+      "userEmail": "manisha@gmail.com",
+      "role": "visitor",
+      "action": "VISIT_BOOKING_CREATED",
+      "previousState": null,
+      "newState": {
+        "id": "req-1786127088734-4zb2z",
+        "visitorId": "user-1786126994573-0xhxl",
+        "visitorName": "Manisha Behera",
+        "visitorEmail": "manisha@gmail.com",
+        "visitorMobile": "9930751055",
+        "company": "KIIT",
+        "photoUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&q=80&w=200",
+        "govIdUrl": "blob:http://localhost:5174/52efb355-4b28-4333-b08f-f637dd522149",
+        "status": "pending_approval",
+        "meetingDetails": {
+          "employeeId": "employee-uid",
+          "employeeName": "Jane Host Employee",
+          "department": "Research & Development",
+          "purpose": "collaboration",
+          "scheduledTime": "2026-08-15T10:00",
+          "durationMinutes": 120,
+          "roomAllocation": "Meeting Pod 2"
+        },
+        "ocrData": {
+          "extractedName": "MANISHA BEHERA",
+          "extractedId": "1111-2222-3333",
+          "confidence": 0.98,
+          "documentVerified": true
+        },
+        "aiAnalysis": {
+          "riskScore": "low",
+          "riskReasoning": "No matches in security blacklist. Destination is standard office space. Normal business collaboration purpose.",
+          "recommendation": "approve",
+          "confidenceScore": 0.96,
+          "timestamp": "2026-08-07T18:24:52.782Z"
+        },
+        "approvals": {
+          "employeeApproved": null,
+          "employeeNotes": "",
+          "executiveApproved": null,
+          "adminApproved": null
+        },
+        "createdAt": "2026-08-07T18:24:52.782Z"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": {
+        "riskScore": "low",
+        "riskReasoning": "No matches in security blacklist. Destination is standard office space. Normal business collaboration purpose.",
+        "recommendation": "approve",
+        "confidenceScore": 0.96,
+        "timestamp": "2026-08-07T18:24:52.782Z"
+      },
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786127093316-u3it8",
+      "timestamp": "2026-08-07T18:24:53.316Z"
+    },
+    {
+      "userId": "user-1786126994573-0xhxl",
+      "userEmail": "manisha@gmail.com",
+      "role": "visitor",
+      "action": "USER_LOGIN_SUCCESS",
+      "previousState": null,
+      "newState": {
+        "email": "manisha@gmail.com",
+        "sessionToken": "ISSUED"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786127017827-cb8ja",
+      "timestamp": "2026-08-07T18:23:37.827Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@gmail.com",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manisha@gmail.com"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786127009145-0x2v8",
+      "timestamp": "2026-08-07T18:23:29.145Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@gmail.com",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manisha@gmail.com"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786127009143-7xo0z",
+      "timestamp": "2026-08-07T18:23:29.143Z"
+    },
+    {
+      "userId": "user-1786126994573-0xhxl",
+      "userEmail": "manisha@gmail.com",
+      "role": "visitor",
+      "action": "MFA_OTP_CHALLENGE",
+      "previousState": null,
+      "newState": {
+        "email": "manisha@gmail.com"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786127008626-chzvi",
+      "timestamp": "2026-08-07T18:23:28.626Z"
+    },
+    {
+      "userId": "user-1786126994573-0xhxl",
+      "userEmail": "manisha@gmail.com",
+      "role": "visitor",
+      "action": "USER_SIGNUP",
+      "previousState": null,
+      "newState": {
+        "uid": "user-1786126994573-0xhxl",
+        "role": "visitor",
+        "name": "Manisha Behera"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786126994576-qnz94",
+      "timestamp": "2026-08-07T18:23:14.576Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@gmail.com",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "mobile",
+        "email": "manisha@gmail.com"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786126981458-km11z",
+      "timestamp": "2026-08-07T18:23:01.458Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@gmail.com",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "email",
+        "email": "manisha@gmail.com"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786126974199-01v77",
+      "timestamp": "2026-08-07T18:22:54.199Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@gmail.com",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "email",
+        "email": "manisha@gmail.com"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786126974196-nlng9",
+      "timestamp": "2026-08-07T18:22:54.196Z"
+    },
+    {
+      "userId": "user-1786121454273-fo5fd",
+      "userEmail": "manisha@hcl.in",
+      "role": "employee",
+      "action": "USER_LOGIN_SUCCESS",
+      "previousState": null,
+      "newState": {
+        "email": "manisha@hcl.in",
+        "sessionToken": "ISSUED"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786126754589-5gups",
+      "timestamp": "2026-08-07T18:19:14.589Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@hcl.in",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manisha@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786126749076-28sd9",
+      "timestamp": "2026-08-07T18:19:09.076Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@hcl.in",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manisha@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786126749074-fa9i7",
+      "timestamp": "2026-08-07T18:19:09.074Z"
+    },
+    {
+      "userId": "user-1786121454273-fo5fd",
+      "userEmail": "manisha@hcl.in",
+      "role": "employee",
+      "action": "MFA_OTP_CHALLENGE",
+      "previousState": null,
+      "newState": {
+        "email": "manisha@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786126748554-79go4",
+      "timestamp": "2026-08-07T18:19:08.554Z"
+    },
+    {
+      "userId": "user-1786121454273-fo5fd",
+      "userEmail": "manisha@hcl.in",
+      "role": "employee",
+      "action": "USER_LOGIN_SUCCESS",
+      "previousState": null,
+      "newState": {
+        "email": "manisha@hcl.in",
+        "sessionToken": "ISSUED"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786126435311-452s6",
+      "timestamp": "2026-08-07T18:13:55.312Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@hcl.in",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manisha@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786126428947-q8maa",
+      "timestamp": "2026-08-07T18:13:48.947Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@hcl.in",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manisha@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786126428945-fyjd9",
+      "timestamp": "2026-08-07T18:13:48.945Z"
+    },
+    {
+      "userId": "user-1786121454273-fo5fd",
+      "userEmail": "manisha@hcl.in",
+      "role": "employee",
+      "action": "MFA_OTP_CHALLENGE",
+      "previousState": null,
+      "newState": {
+        "email": "manisha@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786126428431-9g7mc",
+      "timestamp": "2026-08-07T18:13:48.431Z"
+    },
+    {
+      "userId": "user-1786121454273-fo5fd",
+      "userEmail": "manisha@hcl.in",
+      "role": "employee",
+      "action": "USER_LOGIN_SUCCESS",
+      "previousState": null,
+      "newState": {
+        "email": "manisha@hcl.in",
+        "sessionToken": "ISSUED"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786124665368-zinnj",
+      "timestamp": "2026-08-07T17:44:25.368Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@hcl.in",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manisha@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786124658951-8x9db",
+      "timestamp": "2026-08-07T17:44:18.951Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@hcl.in",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manisha@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786124658949-cim6j",
+      "timestamp": "2026-08-07T17:44:18.949Z"
+    },
+    {
+      "userId": "user-1786121454273-fo5fd",
+      "userEmail": "manisha@hcl.in",
+      "role": "employee",
+      "action": "MFA_OTP_CHALLENGE",
+      "previousState": null,
+      "newState": {
+        "email": "manisha@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786124658431-zm31y",
+      "timestamp": "2026-08-07T17:44:18.431Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@hcl.in",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manisha@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786121516830-e3dzj",
+      "timestamp": "2026-08-07T16:51:56.830Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@hcl.in",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manisha@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786121516828-g265e",
+      "timestamp": "2026-08-07T16:51:56.828Z"
+    },
+    {
+      "userId": "user-1786121454273-fo5fd",
+      "userEmail": "manisha@hcl.in",
+      "role": "employee",
+      "action": "MFA_OTP_CHALLENGE",
+      "previousState": null,
+      "newState": {
+        "email": "manisha@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786121516314-6spyk",
+      "timestamp": "2026-08-07T16:51:56.314Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@hcl.in",
+      "role": "guest",
+      "action": "LOGIN_ATTEMPT_FAILED_CAPTCHA",
+      "previousState": null,
+      "newState": null,
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "failure",
+      "id": "log-1786121509928-ddy53",
+      "timestamp": "2026-08-07T16:51:49.928Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@hcl.in",
+      "role": "guest",
+      "action": "LOGIN_ATTEMPT_FAILED_CAPTCHA",
+      "previousState": null,
+      "newState": null,
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "failure",
+      "id": "log-1786121507700-eu7n4",
+      "timestamp": "2026-08-07T16:51:47.700Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@hcl.in",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manisha@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786121487657-6bw97",
+      "timestamp": "2026-08-07T16:51:27.657Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@hcl.in",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manisha@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786121487655-yvsrp",
+      "timestamp": "2026-08-07T16:51:27.655Z"
+    },
+    {
+      "userId": "user-1786121454273-fo5fd",
+      "userEmail": "manisha@hcl.in",
+      "role": "employee",
+      "action": "MFA_OTP_CHALLENGE",
+      "previousState": null,
+      "newState": {
+        "email": "manisha@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786121487140-x8aul",
+      "timestamp": "2026-08-07T16:51:27.140Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@hcl.in",
+      "role": "guest",
+      "action": "LOGIN_ATTEMPT_FAILED_CAPTCHA",
+      "previousState": null,
+      "newState": null,
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "failure",
+      "id": "log-1786121481223-iz5jb",
+      "timestamp": "2026-08-07T16:51:21.223Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@hcl.in",
+      "role": "guest",
+      "action": "LOGIN_ATTEMPT_FAILED_CAPTCHA",
+      "previousState": null,
+      "newState": null,
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "failure",
+      "id": "log-1786121479129-7t92x",
+      "timestamp": "2026-08-07T16:51:19.129Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@hcl.in",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manisha@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786121466936-1f2o7",
+      "timestamp": "2026-08-07T16:51:06.936Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@hcl.in",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manisha@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786121466934-k6uby",
+      "timestamp": "2026-08-07T16:51:06.934Z"
+    },
+    {
+      "userId": "user-1786121454273-fo5fd",
+      "userEmail": "manisha@hcl.in",
+      "role": "employee",
+      "action": "MFA_OTP_CHALLENGE",
+      "previousState": null,
+      "newState": {
+        "email": "manisha@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786121466417-q0u7b",
+      "timestamp": "2026-08-07T16:51:06.417Z"
+    },
+    {
+      "userId": "user-1786121454273-fo5fd",
+      "userEmail": "manisha@hcl.in",
+      "role": "employee",
+      "action": "USER_SIGNUP",
+      "previousState": null,
+      "newState": {
+        "uid": "user-1786121454273-fo5fd",
+        "role": "employee",
+        "name": "Manisha"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786121454277-dlt0l",
+      "timestamp": "2026-08-07T16:50:54.277Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@hcl.in",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "mobile",
+        "email": "manisha@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786121445779-4xkvm",
+      "timestamp": "2026-08-07T16:50:45.779Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@hcl.in",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "email",
+        "email": "manisha@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786121438495-xrj1q",
+      "timestamp": "2026-08-07T16:50:38.495Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@hcl.in",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "email",
+        "email": "manisha@hcl.in"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786121438493-oyhin",
+      "timestamp": "2026-08-07T16:50:38.493Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manishaexec@securegate.ai",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manishaexec@securegate.ai"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786072948119-rt9rz",
+      "timestamp": "2026-08-07T03:22:28.119Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manishaexec@securegate.ai",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manishaexec@securegate.ai"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786072948116-mm6eq",
+      "timestamp": "2026-08-07T03:22:28.116Z"
+    },
+    {
+      "userId": "user-1786072854904-siltr",
+      "userEmail": "manishaexec@securegate.ai",
+      "role": "executive",
+      "action": "MFA_OTP_CHALLENGE",
+      "previousState": null,
+      "newState": {
+        "email": "manishaexec@securegate.ai"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786072947592-ygm7k",
+      "timestamp": "2026-08-07T03:22:27.592Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manishaexec@securegate.ai",
+      "role": "guest",
+      "action": "LOGIN_ATTEMPT_FAILED_CAPTCHA",
+      "previousState": null,
+      "newState": null,
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "failure",
+      "id": "log-1786072942862-45gqd",
+      "timestamp": "2026-08-07T03:22:22.862Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manishaexec@securegate.ai",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manishaexec@securegate.ai"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786072921961-kgoqh",
+      "timestamp": "2026-08-07T03:22:01.961Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manishaexec@securegate.ai",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manishaexec@securegate.ai"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786072921959-m3put",
+      "timestamp": "2026-08-07T03:22:01.959Z"
+    },
+    {
+      "userId": "user-1786072854904-siltr",
+      "userEmail": "manishaexec@securegate.ai",
+      "role": "executive",
+      "action": "MFA_OTP_CHALLENGE",
+      "previousState": null,
+      "newState": {
+        "email": "manishaexec@securegate.ai"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786072921447-ceft6",
+      "timestamp": "2026-08-07T03:22:01.447Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manishaexec@securegate.ai",
+      "role": "guest",
+      "action": "LOGIN_ATTEMPT_FAILED_CAPTCHA",
+      "previousState": null,
+      "newState": null,
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "failure",
+      "id": "log-1786072909197-nmcbf",
+      "timestamp": "2026-08-07T03:21:49.197Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manishaexec@securegate.ai",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manishaexec@securegate.ai"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786072894778-gh79b",
+      "timestamp": "2026-08-07T03:21:34.778Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manishaexec@securegate.ai",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manishaexec@securegate.ai"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786072894775-4yqb2",
+      "timestamp": "2026-08-07T03:21:34.775Z"
+    },
+    {
+      "userId": "user-1786072854904-siltr",
+      "userEmail": "manishaexec@securegate.ai",
+      "role": "executive",
+      "action": "MFA_OTP_CHALLENGE",
+      "previousState": null,
+      "newState": {
+        "email": "manishaexec@securegate.ai"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786072894257-2bcos",
+      "timestamp": "2026-08-07T03:21:34.257Z"
+    },
+    {
+      "userId": "user-1786072854904-siltr",
+      "userEmail": "manishaexec@securegate.ai",
+      "role": "executive",
+      "action": "USER_SIGNUP",
+      "previousState": null,
+      "newState": {
+        "uid": "user-1786072854904-siltr",
+        "role": "executive",
+        "name": "Manisha Behera"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786072854909-wwq1d",
+      "timestamp": "2026-08-07T03:20:54.909Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manishaexec@securegate.ai",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "mobile",
+        "email": "manishaexec@securegate.ai"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786072849368-2fibb",
+      "timestamp": "2026-08-07T03:20:49.368Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manishaexec@securegate.ai",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "email",
+        "email": "manishaexec@securegate.ai"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786072843879-joes5",
+      "timestamp": "2026-08-07T03:20:43.879Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manishaexec@securegate.ai",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "email",
+        "email": "manishaexec@securegate.ai"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786072843876-zyhgq",
+      "timestamp": "2026-08-07T03:20:43.876Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manishaexec@securegate.ai",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "mobile",
+        "email": "manishaexec@securegate.ai"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786072818728-7ymos",
+      "timestamp": "2026-08-07T03:20:18.728Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manishaexec@securegate.ai",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "email",
+        "email": "manishaexec@securegate.ai"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786072812188-f47y4",
+      "timestamp": "2026-08-07T03:20:12.188Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manishaexec@securegate.ai",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "email",
+        "email": "manishaexec@securegate.ai"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786072812186-bz2hx",
+      "timestamp": "2026-08-07T03:20:12.186Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "exec@securegate.ai",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "mobile",
+        "email": "exec@securegate.ai"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786072785232-p7aaf",
+      "timestamp": "2026-08-07T03:19:45.232Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "exec@securegate.ai",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "email",
+        "email": "exec@securegate.ai"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786072779087-13p97",
+      "timestamp": "2026-08-07T03:19:39.087Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "exec@securegate.ai",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "email",
+        "email": "exec@securegate.ai"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786072779081-lspws",
+      "timestamp": "2026-08-07T03:19:39.081Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "exec@securegate.ai",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "mobile",
+        "email": "exec@securegate.ai"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786072739280-bkfry",
+      "timestamp": "2026-08-07T03:18:59.280Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "exec@securegate.ai",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "email",
+        "email": "exec@securegate.ai"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786072724125-6azlp",
+      "timestamp": "2026-08-07T03:18:44.125Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "exec@securegate.ai",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "email",
+        "email": "exec@securegate.ai"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786072724120-avypu",
+      "timestamp": "2026-08-07T03:18:44.120Z"
+    },
+    {
+      "id": "log-sample-1",
+      "timestamp": "2026-08-07T03:18:44.116Z",
+      "userId": "employee-uid",
+      "userEmail": "employee@securegate.ai",
+      "role": "employee",
+      "action": "VISITOR_APPROVAL",
+      "previousState": {
+        "status": "pending_approval"
+      },
+      "newState": {
+        "status": "approved"
+      },
+      "ipAddress": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+      "aiDecision": {
+        "recommendation": "approve",
+        "confidenceScore": 0.94
+      },
+      "humanApproval": true,
+      "status": "success"
+    }
+  ],
+  "config": {
+    "riskThreshold": 0.65,
+    "autoEscalateHighRisk": true,
+    "mfaEnabled": true,
+    "sessionTimeoutMs": 900000
+  },
+  "blacklist": [
+    {
+      "name": "Malicious Hacker",
+      "idNumber": "9999-8888-7777"
+    },
+    {
+      "name": "Banned Spammer"
+    }
+  ],
+  "whitelist": [
+    "trusted-partner.com",
+    "gov.in",
+    "partner@securegate.ai"
+  ]
+}

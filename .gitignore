@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Build artifacts
+dist/
+build/
+*.log
+
+# Portable Tooling & Temp
+PortableGit/
+PortableGit.exe
+scratch/
+
+# IDE & OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
