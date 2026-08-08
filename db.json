@@ -249,6 +249,77 @@
       "aiDecision": null,
       "humanApproval": null,
       "status": "success",
+      "id": "log-1786161392010-vala9",
+      "timestamp": "2026-08-08T03:56:32.010Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@gmail.com",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manisha@gmail.com"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786161377435-j92zz",
+      "timestamp": "2026-08-08T03:56:17.435Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@gmail.com",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manisha@gmail.com"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786161377431-lcw4q",
+      "timestamp": "2026-08-08T03:56:17.431Z"
+    },
+    {
+      "userId": "user-1786126994573-0xhxl",
+      "userEmail": "manisha@gmail.com",
+      "role": "visitor",
+      "action": "MFA_OTP_CHALLENGE",
+      "previousState": null,
+      "newState": {
+        "email": "manisha@gmail.com"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786161376915-stpor",
+      "timestamp": "2026-08-08T03:56:16.915Z"
+    },
+    {
+      "userId": "user-1786126994573-0xhxl",
+      "userEmail": "manisha@gmail.com",
+      "role": "visitor",
+      "action": "USER_LOGIN_SUCCESS",
+      "previousState": null,
+      "newState": {
+        "email": "manisha@gmail.com",
+        "sessionToken": "ISSUED"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
       "id": "log-1786128875006-anhbn",
       "timestamp": "2026-08-07T18:54:35.006Z"
     },

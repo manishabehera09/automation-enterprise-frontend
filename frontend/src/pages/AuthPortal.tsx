@@ -470,7 +470,7 @@ export const AuthPortal: React.FC<AuthPortalProps> = ({ onLoginSuccess, onNaviga
 
             <div className="space-y-4">
               <div className="space-y-1.5 text-left">
-                <label className="text-xs font-bold text-slate-400 uppercase">Email / User ID</label>
+                <label className="text-xs font-bold text-slate-600 dark:text-slate-400 uppercase">Email / User ID</label>
                 <div className="relative">
                   <span className="absolute inset-y-0 left-0 pl-3 flex items-center text-slate-400"><Mail size={16} /></span>
                   <input
@@ -479,18 +479,18 @@ export const AuthPortal: React.FC<AuthPortalProps> = ({ onLoginSuccess, onNaviga
                     placeholder="name@company.com"
                     value={email}
                     onChange={e => setEmail(e.target.value)}
-                    className="w-full pl-10 pr-4 py-2 text-sm bg-slate-50 dark:bg-slate-950 border border-slate-350 dark:border-slate-800 rounded dark:text-slate-100 focus:outline-brand-500"
+                    className="w-full pl-10 pr-4 py-2 text-sm bg-slate-50 dark:bg-slate-950 border border-slate-300 dark:border-slate-800 rounded text-slate-900 dark:text-slate-100 placeholder:text-slate-400 focus:outline-brand-500"
                   />
                 </div>
               </div>
 
               <div className="space-y-1.5 text-left">
                 <div className="flex justify-between items-center">
-                  <label className="text-xs font-bold text-slate-400 uppercase">Password</label>
+                  <label className="text-xs font-bold text-slate-600 dark:text-slate-400 uppercase">Password</label>
                   <button
                     type="button"
                     onClick={() => setIsForgotPassword(true)}
-                    className="text-[11px] text-brand-500 hover:underline"
+                    className="text-[11px] text-brand-500 hover:underline font-semibold"
                   >
                     Forgot Password?
                   </button>
@@ -503,7 +503,7 @@ export const AuthPortal: React.FC<AuthPortalProps> = ({ onLoginSuccess, onNaviga
                     placeholder="••••••••"
                     value={password}
                     onChange={e => setPassword(e.target.value)}
-                    className="w-full pl-10 pr-10 py-2 text-sm bg-slate-50 dark:bg-slate-950 border border-slate-350 dark:border-slate-800 rounded dark:text-slate-100 focus:outline-brand-500"
+                    className="w-full pl-10 pr-10 py-2 text-sm bg-slate-50 dark:bg-slate-950 border border-slate-300 dark:border-slate-800 rounded text-slate-900 dark:text-slate-100 placeholder:text-slate-400 focus:outline-brand-500"
                   />
                   <button
                     type="button"
