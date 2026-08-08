@@ -7,11 +7,30 @@ import { EmployeeDashboard } from "./pages/EmployeeDashboard";
 import { ExecutiveDashboard } from "./pages/ExecutiveDashboard";
 import { AdminDashboard } from "./pages/AdminDashboard";
 import { SecurityDashboard } from "./pages/SecurityDashboard";
-import { Bell, ShieldCheck } from "lucide-react";
+import { Bell, ShieldCheck, Sun, Moon } from "lucide-react";
 
 const MainApp: React.FC = () => {
   const { user, logout, notifications, clearNotifications } = useAuth();
   const [currentPage, setCurrentPage] = useState<string>("home");
+
+  // Persistent Dark / Night Mode state
+  const [theme, setTheme] = useState<"light" | "dark">(() => {
+    return (localStorage.getItem("theme") as "light" | "dark") || "dark";
+  });
+
+  useEffect(() => {
+    if (theme === "dark") {
+      document.documentElement.classList.add("dark");
+      localStorage.setItem("theme", "dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+      localStorage.setItem("theme", "light");
+    }
+  }, [theme]);
+
+  const toggleTheme = () => {
+    setTheme(prev => prev === "dark" ? "light" : "dark");
+  };
 
   // Inactivity Session Timeout (15 minutes)
   const TIMEOUT_MS = 15 * 60 * 1000;
@@ -62,14 +81,14 @@ const MainApp: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-warm-50 font-sans">
+    <div className="min-h-screen bg-warm-50 dark:bg-slate-950 font-sans text-sand-900 dark:text-slate-100 transition-colors duration-200">
 
       {/* ─── Home / Landing Page ─── */}
       {currentPage === "home" && (
         <LandingPage
           onNavigate={(page) => setCurrentPage(page)}
-          theme="light"
-          onToggleTheme={() => {}}
+          theme={theme}
+          onToggleTheme={toggleTheme}
         />
       )}
 
@@ -85,25 +104,45 @@ const MainApp: React.FC = () => {
       {currentPage === "dashboard" && user && (
         <>
           {/* Top Header Bar */}
-          <header className="bg-white border-b border-warm-200 px-6 py-3.5 flex justify-between items-center shadow-warm-sm sticky top-0 z-30">
+          <header className="bg-white dark:bg-slate-900 border-b border-warm-200 dark:border-slate-800 px-6 py-3.5 flex justify-between items-center shadow-warm-sm sticky top-0 z-30">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 rounded-lg bg-brown-gradient flex items-center justify-center shadow-warm-sm">
                 <ShieldCheck size={16} className="text-white" />
               </div>
               <div>
-                <span className="font-black text-sm text-brand-800 tracking-tight">SecureGate AI</span>
-                <span className="text-[10px] text-sand-400 font-semibold ml-2 uppercase tracking-widest hidden sm:inline">
+                <span className="font-black text-sm text-brand-800 dark:text-brand-400 tracking-tight">SecureGate AI</span>
+                <span className="text-[10px] text-sand-400 dark:text-slate-400 font-semibold ml-2 uppercase tracking-widest hidden sm:inline">
                   {user.role} portal
                 </span>
               </div>
             </div>
 
             <div className="flex items-center gap-3">
+              {/* Theme Mode Switcher */}
+              <button
+                type="button"
+                onClick={toggleTheme}
+                className="px-3 py-1.5 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 transition flex items-center gap-2 text-xs font-bold"
+                title={`Switch to ${theme === "dark" ? "Light Mode (Day)" : "Dark Mode (Night)"}`}
+              >
+                {theme === "dark" ? (
+                  <>
+                    <Sun size={15} className="text-amber-400" />
+                    <span className="hidden sm:inline text-amber-300">Day Mode</span>
+                  </>
+                ) : (
+                  <>
+                    <Moon size={15} className="text-indigo-600" />
+                    <span className="hidden sm:inline text-indigo-700">Night Mode</span>
+                  </>
+                )}
+              </button>
+
               {/* Notification bell */}
               {notifications.length > 0 && (
                 <div className="relative">
-                  <div className="p-2 bg-warm-50 border border-warm-200 rounded-xl relative">
-                    <Bell size={16} className="text-brand-600" />
+                  <div className="p-2 bg-warm-50 dark:bg-slate-800 border border-warm-200 dark:border-slate-700 rounded-xl relative">
+                    <Bell size={16} className="text-brand-600 dark:text-brand-400" />
                     <span className="absolute -top-1.5 -right-1.5 w-4 h-4 bg-rust-500 text-white text-[9px] font-black rounded-full flex items-center justify-center">
                       {notifications.length}
                     </span>
@@ -122,13 +161,13 @@ const MainApp: React.FC = () => {
               )}
 
               {/* User pill */}
-              <div className="flex items-center gap-2.5 pl-3 border-l border-warm-200">
+              <div className="flex items-center gap-2.5 pl-3 border-l border-warm-200 dark:border-slate-800">
                 <div className="w-7 h-7 rounded-full bg-brown-gradient flex items-center justify-center text-white font-black text-[10px] shadow-warm-sm">
                   {user.name.substring(0, 2).toUpperCase()}
                 </div>
                 <div className="hidden sm:block">
-                  <p className="text-xs font-bold text-sand-800 leading-none">{user.name}</p>
-                  <p className="text-[10px] text-sand-400 capitalize">{user.role}</p>
+                  <p className="text-xs font-bold text-sand-800 dark:text-slate-200 leading-none">{user.name}</p>
+                  <p className="text-[10px] text-sand-400 dark:text-slate-400 capitalize">{user.role}</p>
                 </div>
               </div>
             </div>
@@ -145,17 +184,26 @@ const MainApp: React.FC = () => {
       {/* ─── Security Gate Portal ─── */}
       {currentPage === "security_gate" && (
         <>
-          <header className="bg-white border-b border-warm-200 px-6 py-3.5 flex justify-between items-center shadow-warm-sm sticky top-0 z-30">
+          <header className="bg-white dark:bg-slate-900 border-b border-warm-200 dark:border-slate-800 px-6 py-3.5 flex justify-between items-center shadow-warm-sm sticky top-0 z-30">
             <div className="flex items-center gap-2">
-              <ShieldCheck size={18} className="text-brand-600" />
-              <span className="font-black text-sm text-brand-800">Security Access Gate</span>
+              <ShieldCheck size={18} className="text-brand-600 dark:text-brand-400" />
+              <span className="font-black text-sm text-brand-800 dark:text-brand-300">Security Access Gate</span>
             </div>
-            <button
-              onClick={() => setCurrentPage("dashboard")}
-              className="btn-secondary text-xs py-2 px-3"
-            >
-              ← Back to Dashboard
-            </button>
+            <div className="flex items-center gap-3">
+              <button
+                type="button"
+                onClick={toggleTheme}
+                className="px-3 py-1.5 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 transition flex items-center gap-2 text-xs font-bold"
+              >
+                {theme === "dark" ? <Sun size={15} className="text-amber-400" /> : <Moon size={15} className="text-indigo-600" />}
+              </button>
+              <button
+                onClick={() => setCurrentPage("dashboard")}
+                className="btn-secondary text-xs py-2 px-3"
+              >
+                ← Back to Dashboard
+              </button>
+            </div>
           </header>
           <SecurityDashboard onLogout={handleLogout} />
         </>
