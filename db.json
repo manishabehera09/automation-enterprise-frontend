@@ -147,6 +147,27 @@
         "designation": ""
       },
       "createdAt": "2026-08-07T18:27:28.792Z"
+    },
+    {
+      "uid": "user-1786167380611-35i2i",
+      "name": "Isha",
+      "email": "manisha@exec.com",
+      "mobile": "9898767654",
+      "role": "executive",
+      "passwordHash": "$2a$10$Vu86hjFDIAtEZZZCvhsVW.NdHPHzsm3tBJ8ZrbPW45B50fehRntai",
+      "status": "active",
+      "failedAttempts": 0,
+      "details": {
+        "company": "",
+        "govIdType": "aadhaar",
+        "govIdNumber": "",
+        "vehicleNumber": "",
+        "laptopDetails": "",
+        "employeeId": "EX-10",
+        "department": "EXECUTIVE",
+        "designation": ""
+      },
+      "createdAt": "2026-08-08T05:36:20.611Z"
     }
   ],
   "requests": [
@@ -234,6 +255,221 @@
     }
   ],
   "auditLogs": [
+    {
+      "userId": "user-1786167380611-35i2i",
+      "userEmail": "manisha@exec.com",
+      "role": "executive",
+      "action": "USER_LOGIN_SUCCESS",
+      "previousState": null,
+      "newState": {
+        "email": "manisha@exec.com",
+        "sessionToken": "ISSUED"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786167411183-feym0",
+      "timestamp": "2026-08-08T05:36:51.183Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@exec.com",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manisha@exec.com"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786167405150-vs05i",
+      "timestamp": "2026-08-08T05:36:45.150Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@exec.com",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manisha@exec.com"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786167405147-h2nyo",
+      "timestamp": "2026-08-08T05:36:45.147Z"
+    },
+    {
+      "userId": "user-1786167380611-35i2i",
+      "userEmail": "manisha@exec.com",
+      "role": "executive",
+      "action": "MFA_OTP_CHALLENGE",
+      "previousState": null,
+      "newState": {
+        "email": "manisha@exec.com"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786167404627-07cex",
+      "timestamp": "2026-08-08T05:36:44.627Z"
+    },
+    {
+      "userId": "user-1786167380611-35i2i",
+      "userEmail": "manisha@exec.com",
+      "role": "executive",
+      "action": "USER_SIGNUP",
+      "previousState": null,
+      "newState": {
+        "uid": "user-1786167380611-35i2i",
+        "role": "executive",
+        "name": "Isha"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786167380617-kekm7",
+      "timestamp": "2026-08-08T05:36:20.618Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@exec.com",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "mobile",
+        "email": "manisha@exec.com"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786167359701-r9q0a",
+      "timestamp": "2026-08-08T05:35:59.701Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@exec.com",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "email",
+        "email": "manisha@exec.com"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786167352233-y96wv",
+      "timestamp": "2026-08-08T05:35:52.233Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@exec.com",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "email",
+        "email": "manisha@exec.com"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786167352230-us7q2",
+      "timestamp": "2026-08-08T05:35:52.230Z"
+    },
+    {
+      "userId": "user-1786126994573-0xhxl",
+      "userEmail": "manisha@gmail.com",
+      "role": "visitor",
+      "action": "USER_LOGIN_SUCCESS",
+      "previousState": null,
+      "newState": {
+        "email": "manisha@gmail.com",
+        "sessionToken": "ISSUED"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786162422631-7xtb0",
+      "timestamp": "2026-08-08T04:13:42.631Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@gmail.com",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manisha@gmail.com"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786162418708-es7jb",
+      "timestamp": "2026-08-08T04:13:38.708Z"
+    },
+    {
+      "userId": "unauthenticated",
+      "userEmail": "manisha@gmail.com",
+      "role": "guest",
+      "action": "OTP_SENT",
+      "previousState": null,
+      "newState": {
+        "type": "login",
+        "email": "manisha@gmail.com"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786162418705-t1h22",
+      "timestamp": "2026-08-08T04:13:38.705Z"
+    },
+    {
+      "userId": "user-1786126994573-0xhxl",
+      "userEmail": "manisha@gmail.com",
+      "role": "visitor",
+      "action": "MFA_OTP_CHALLENGE",
+      "previousState": null,
+      "newState": {
+        "email": "manisha@gmail.com"
+      },
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "aiDecision": null,
+      "humanApproval": null,
+      "status": "success",
+      "id": "log-1786162418191-tkzhu",
+      "timestamp": "2026-08-08T04:13:38.191Z"
+    },
     {
       "userId": "user-1786126994573-0xhxl",
       "userEmail": "manisha@gmail.com",
